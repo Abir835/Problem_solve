@@ -34,7 +34,7 @@ def linearSearch(array, n, x):
 
 
 array = [2, 4, 0, 1, 9]
-x = 1
+x = int(input())
 n = len(array)
 result = linearSearch(array, n, x)
 if result == -1:
